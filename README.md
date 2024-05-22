@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Git Repo URL: - https://github.com/aish1007/notifications-handler
+
+A demo is attached as part of this repo.
+
+Advancements and optimizations: -
+1. Use hooks and remove redundant codes in App.tsx and Header.tsx
+2. Wrap metric component with header
+3. Handle loading state while fetching data from service
+4. Make Notification Context as source of truth for data supply instead of fetching it from service directly in components.
+5. Extract the notification logic from App.tsx & Header.tsx into separate components (like a wrapper component)
+
 ## Available Scripts
 
 In the project directory, you can run:
